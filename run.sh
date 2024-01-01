@@ -138,4 +138,4 @@ echo -e '\033[1;92mqorsan is launching......'
 sleep 1.1
 chmod +x *
 clear
-python losiphar7.py
+python losiphar73.py
