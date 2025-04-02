@@ -8,33 +8,8 @@ import socket
 import time
 os.system('clear')
 telegram_link = "https://t.me/qorsantaez73"
-def check_user(ip, hostname):
-
-    allowed_ip = "127.0.0.1"
-    allowed_hostname = "localhost"
-
-    if ip == allowed_ip and hostname == allowed_hostname:
-        return True
-    else:
-        return False
-
-ip = socket.gethostbyname(socket.gethostname())
-hostname = socket.gethostname()
-
-if check_user(ip, hostname):
-    print("'\033[1;32m'ip true")
-    time.sleep(2)
-    print("'\033[1;32m'name true")
     time.sleep(2)
     print("'\033[1;32m'HELLO MY FRIEND")
-else:
-    print("'\033[1;31m'ip false")
-    time.sleep(2)
-    print("'\033[1;31m'name false")
-    time.sleep(2)
-    print("'\033[1;31m'STOP GO TO THE QORSAN")
-    exit()
-
 webbrowser.open(telegram_link)
 Z = '\033[1;32m'
 T = '\033[1;31m'
