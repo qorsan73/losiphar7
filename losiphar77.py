@@ -8,7 +8,6 @@ import socket
 import time
 os.system('clear')
 telegram_link = "https://t.me/qorsantaez73"
-    print("'\033[1;32m'HELLO MY FRIEND")
 webbrowser.open(telegram_link)
 Z = '\033[1;32m'
 T = '\033[1;31m'
